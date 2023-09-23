@@ -1,0 +1,19 @@
+<table class="table table-success table-striped-columns">
+  <thead>
+  <tr>
+    <th scope="col">id</th>
+    <th scope="col">name</th>
+    <th scope="col">age</th>
+    <th scope="col">salary</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let person of persons">
+    <th scope="row">{{person.id}}</th>
+    <td>{{person.name}}</td>
+    <td>{{person.age}}</td>
+    <td>{{person.salary}}</td>
+  </tr>
+
+  </tbody>
+</table>
